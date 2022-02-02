@@ -1,0 +1,30 @@
+- var img = 'img/';
+
+doctype
+html
+	include blocks/head.pug
+		title
+	body
+		
+		main.page-container
+			section.grow
+				.grow__container
+					include blocks/header.pug
+					.grow__main(class="flex")
+						.grow__text 
+							.grow__heading
+								h1 Grow with the <span>right company</span>
+								.sub-h1 Grow with the right company
+							p If you are looking for a well-paid job and great professional team, then do not hesitate to contact us!<br> We are waiting for you!
+							.grow__btns 
+								a.btn(href="#" class="btn-full") Apply now
+								a.btn(href="#") Learn more
+						.grow__images
+							img(src=img+"video.png", alt="")
+							a(href="#")
+								img.grow__images-absolute(src=img+"Vector.svg", alt="")
+
+
+
+		include blocks/footer.pug
+		include blocks/scripts.pug
