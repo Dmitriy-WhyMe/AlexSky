@@ -39,6 +39,14 @@ body
 	font-size: 18px
 	line-height: 23px
 
+h2
+	font-weight: bold
+	font-size: 50px
+	line-height: 78.6%
+	text-transform: uppercase
+	span
+		font-weight: 400
+
 .grow
 	background: url(../img/img.png)
 	background-repeat: no-repeat
@@ -100,3 +108,278 @@ body
 		justify-content: center
 		a
 			position: absolute
+
+.about
+	padding-bottom: 94px
+	position: relative
+	&__text-absolut
+		position: absolute
+		right: 0
+		bottom: 0
+		text-transform: uppercase
+		color: #EFEFEF
+		font-weight: 800
+		font-size: 160px
+		line-height: 79.6%
+		font-family: 'Montserrat', sans-serif
+		z-index: -1
+	&__container
+		max-width: fit-content
+		width: 100%
+		margin: 0 auto
+		gap: 34px
+		img
+			max-width: 536px
+			width: 100%
+			max-height: 277px
+		.about__text
+			h2
+				max-width: 266px
+				position: relative
+				margin-bottom: 34px
+				&::after
+					right: 10px
+					bottom: -15px
+					position: absolute
+					content: ''
+					height: 46px
+					width: 70px
+					background: inherit
+					border-right: 1px solid yellow
+					border-bottom: 1px solid yellow
+			p
+				margin-bottom: 10px
+				max-width: 608px
+				width: 100%
+			a
+				display: flex
+				align-items: center
+				color: $yellow
+				gap: 11px
+				font-weight: bold
+
+.choose
+	background: url(../img/img-choose.png)
+	background-repeat: no-repeat
+	padding-top: 110px
+	padding-bottom: 110px
+	&__container
+		max-width: fit-content
+		margin: 0 auto
+		h2
+			max-width: 440px
+			text-align: center
+			width: 100%
+			position: relative
+			margin: 0 auto
+			color: white
+			margin-bottom: 41px
+			&::after
+				right: -20px
+				bottom: -15px
+				position: absolute
+				content: ''
+				height: 46px
+				width: 70px
+				background: inherit
+				border-right: 1px solid yellow
+				border-bottom: 1px solid yellow
+
+		.choose__blocks
+			gap: 65px
+			.choose__block
+				h4
+					font-weight: bold
+					font-size: 25px
+					line-height: 78.6%
+					color: white
+					margin-bottom: 25px
+				.dop
+					max-width: 245px
+				p
+					color: white
+					font-size: 16px
+					line-height: 20px
+					span
+						font-weight: bold
+						color: $yellow
+						font-size: 18px
+						line-height: 23px
+				ul
+					li
+						list-style: disc
+						color: white
+						margin-left: 20px
+.why 
+	min-height: 708px
+	position: relative
+	padding-top: 108px
+	margin-bottom: 100px
+	.why-absolute
+		right: 0
+		bottom: 0
+		position: absolute
+	&__container
+		max-width: fit-content
+		margin: 0 auto
+		h2
+			max-width: 374px
+			width: 100%
+			position: relative
+			color: black
+			margin-bottom: 41px
+			&::after
+				right: 0px
+				bottom: -15px
+				position: absolute
+				content: ''
+				height: 46px
+				width: 70px
+				background: inherit
+				border-right: 1px solid yellow
+				border-bottom: 1px solid yellow
+		.why__blocks
+			gap: 30px
+			.why__block
+				max-width: 255px
+				width: 100%
+				h4
+					margin-top: 29px
+					font-weight: bold
+					font-size: 25px
+					line-height: 78.6%
+					margin-bottom: 22px
+.rewies
+	padding-bottom: 88px
+	&__container
+		max-width: 1135px
+		margin: 0 auto
+		margin-bottom: 48px
+		h2
+			margin-bottom: 23px
+			max-width: 916px
+			width: 100%
+			position: relative
+			color: black
+			&::after
+				right: -10px
+				bottom: -15px
+				position: absolute
+				content: ''
+				height: 46px
+				width: 70px
+				background: inherit
+				border-right: 1px solid yellow
+				border-bottom: 1px solid yellow
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after
+	content: none
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after
+	content: none
+.swiper-button-prev, .swiper-rtl .swiper-button-next
+	left: -15px
+.swiper__container
+	max-width: 1135px
+	margin: 0 auto
+.container__fluid
+	position: relative
+	max-width: 1230px
+	margin: 0 auto
+.swiper
+	padding: 25px
+	margin-left: -25px
+.swiper-slide
+	min-width: 350px
+	box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1)
+	position: relative
+	min-height: 290px
+	padding-top: 30px
+	padding-left: 30px
+	padding-right: 20px
+	padding-bottom: 30px
+	.rewies__row
+		justify-content: space-between
+		align-items: center
+		margin-bottom: 5px
+		.rewies__name
+			font-weight: bold
+			font-size: 20px
+			line-height: 78.6%
+	.rewies__date
+		position: absolute
+		left: 30px
+		bottom: 19px
+		font-weight: bold
+		font-size: 14px
+		line-height: 18px
+
+.bonus 
+	background: $yellow
+	padding: 80px 0
+	&__container
+		margin: 0 auto
+		max-width: fit-content
+		h2
+			margin-bottom: 62px
+			max-width: 646px
+			width: 100%
+			position: relative
+			color: black
+			&::after
+				right: -10px
+				bottom: -15px
+				position: absolute
+				content: ''
+				height: 46px
+				width: 70px
+				background: inherit
+				border-right: 1px solid yellow
+				border-bottom: 1px solid yellow
+		.bonus__blocks
+			gap: 29px
+			.bonus__item-left
+				display: flex
+				max-width: 508px
+				width: 100%
+				flex-direction: column
+				gap: 10px
+				h6
+					font-weight: bold
+					font-size: 18px
+					line-height: 130.6%
+				.line
+					height: 1px
+					max-width: 109px
+					width: 100%
+					background: #020203
+			.bonus__item-right
+				background: white
+				max-width: 565px
+				width: 100%
+				padding: 27px 20px 27px 30px
+				position: relative
+				&::before
+					content: ''
+					top: 0
+					left: 0
+					position: absolute
+					background: inherit
+					width: 60px
+					height: 60px
+					border-top: 1px solid #020203
+					border-left: 1px solid #020203
+				&::after
+					content: ''
+					bottom: 0
+					right: 0
+					position: absolute
+					background: inherit
+					width: 60px
+					height: 60px
+					border-right: 1px solid #020203
+					border-bottom: 1px solid #020203
+				p
+					max-width: 512px
+					width: 100%
+					font-weight: bold
+					font-size: 18px
+					line-height: 188.6%
