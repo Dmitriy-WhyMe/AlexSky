@@ -7,6 +7,7 @@ body
 	font-weight: 300
 	background: white
 	overflow-x: hidden
+	position: relative
 	// +scrollbar(10px, auto, $yellow, $gray2, $dark, null)
 
 .page-container
@@ -47,6 +48,245 @@ h2
 	span
 		font-weight: 400
 
+.page-up
+	position: absolute
+	bottom: 0
+	right: 150px
+	background: $yellow
+	width: 50px
+	padding-top: 45px
+	height: 170px
+	.page-up__text
+		transform: rotate(90deg)
+		font-weight: bold
+		font-size: 18px
+		line-height: 23px
+		color: black
+.mfp-close-btn-in .mfp-close
+	color: white	
+.mfp-close
+	right: -15px
+	top: -35px
+	opacity: 1
+.apply-pop
+	position: relative
+	background: url(../img/apply-pop.png)
+	max-width: 410px
+	width: 100%
+	height: 761px
+	margin: 0 auto
+	background-repeat: no-repeat
+	.apply-pop__wrapper 
+		background: rgba(0, 0, 0, 0.6)
+		padding: 50px 45px
+		h2
+			margin-bottom: 23px
+			color: white
+			max-width: 157px
+			position: relative
+			&::after
+				right: 40px
+				bottom: -9px
+				position: absolute
+				content: ''
+				height: 46px
+				width: 63px
+				background: inherit
+				border-right: 1px solid yellow
+				border-bottom: 1px solid yellow
+		p
+			max-width: 278px
+			font-size: 14px
+			color: white
+			line-height: 18px
+			margin-bottom: 15px
+		form
+			textarea
+				max-width: 100%
+				width: 100%
+				font-weight: bold
+				font-size: 18px
+				line-height: 23px
+				margin-bottom: 19px
+				font-family: 'Space Grotesk', sans-serif
+				height: 120px
+				padding-left: 18px
+				color: #020203
+				padding-top: 29px
+				&::placeholder
+					font-weight: bold
+					font-size: 18px
+					line-height: 23px
+					font-family: 'Space Grotesk', sans-serif
+					font-weight: bold
+					color: #020203
+			input
+				max-width: 100%
+				width: 100%
+				font-weight: bold
+				font-size: 18px
+				line-height: 23px
+				margin-bottom: 19px
+				font-family: 'Space Grotesk', sans-serif
+				height: 50px
+				padding-left: 18px
+				color: #020203
+				&::placeholder
+					font-weight: bold
+					font-size: 18px
+					line-height: 23px
+					font-family: 'Space Grotesk', sans-serif
+					font-weight: bold
+					color: #020203
+			button
+					cursor: pointer
+					display: flex
+					align-items: center
+					justify-content: center
+					max-width: 321px
+					width: 100%
+					height: 50px
+					background: #FFC71A
+					font-weight: bold
+					font-size: 18px
+					line-height: 23px
+					color: black
+					font-family: 'Space Grotesk', sans-serif
+.text-pop__1 > h2
+	max-width: 610px
+.text-pop__2 > h2
+	max-width: 344px
+.text-pop__3 > h2
+	max-width: 171px
+.text-pop__4 > h2
+	max-width: 97px
+.text-pop__5 > h2
+	max-width: 750px
+.text-pop__1, .text-pop__2, .text-pop__3, .text-pop__4, .text-pop__5
+	position: relative
+	background: white
+	max-width: 1110px
+	width: 100%
+	margin: 0 auto
+	padding: 50px 60px
+	h2
+		margin-bottom: 38px
+		color: black
+		position: relative
+		&::after
+			right: -10px
+			bottom: -5px
+			position: absolute
+			content: ''
+			height: 46px
+			width: 63px
+			background: inherit
+			border-right: 1px solid yellow
+			border-bottom: 1px solid yellow
+	p
+		font-weight: 300
+		font-size: 14px
+		line-height: 18px
+	
+.thanks-pop
+	position: relative
+	background: url(../img/thank-pop.png)
+	max-width: 410px
+	width: 100%
+	height: 330px
+	margin: 0 auto
+	&__wrapper
+		background: rgba(0, 0, 0, 0.6)
+		padding: 40px 45px
+		.btn
+			max-width: 321px
+			background: $yellow
+			color: black
+		p
+			max-width: 278px
+			font-size: 14px
+			color: white
+			line-height: 18px
+			margin-bottom: 27px
+		h2
+			margin-bottom: 36px
+			color: white
+			max-width: 189px
+			position: relative
+			&::after
+				right: -10px
+				bottom: -5px
+				position: absolute
+				content: ''
+				height: 46px
+				width: 63px
+				background: inherit
+				border-right: 1px solid yellow
+				border-bottom: 1px solid yellow
+.call-pop
+	position: relative
+	background: url(../img/call-pop.png)
+	max-width: 410px
+	width: 100%
+	height: 410px
+	margin: 0 auto
+	.call-pop__wrapper 
+		background: rgba(0, 0, 0, 0.6)
+		padding: 50px 45px
+		h2
+			margin-bottom: 27px
+			color: white
+			max-width: 114px
+			position: relative
+			&::after
+				right: -10px
+				bottom: -5px
+				position: absolute
+				content: ''
+				height: 46px
+				width: 63px
+				background: inherit
+				border-right: 1px solid yellow
+				border-bottom: 1px solid yellow
+		p
+			max-width: 278px
+			font-size: 14px
+			color: white
+			line-height: 18px
+			margin-bottom: 32px
+		form
+			input
+				max-width: 100%
+				width: 100%
+				font-weight: bold
+				font-size: 18px
+				line-height: 23px
+				margin-bottom: 19px
+				font-family: 'Space Grotesk', sans-serif
+				height: 50px
+				padding-left: 18px
+				color: #020203
+				&::placeholder
+					font-weight: bold
+					font-size: 18px
+					line-height: 23px
+					font-family: 'Space Grotesk', sans-serif
+					font-weight: bold
+					color: #020203
+			button
+				cursor: pointer
+				display: flex
+				align-items: center
+				justify-content: center
+				max-width: 321px
+				width: 100%
+				height: 50px
+				background: #FFC71A
+				font-weight: bold
+				font-size: 18px
+				line-height: 23px
+				color: black
+				font-family: 'Space Grotesk', sans-serif
 .grow
 	background: url(../img/img.png)
 	background-repeat: no-repeat
@@ -332,8 +572,8 @@ h2
 				height: 46px
 				width: 70px
 				background: inherit
-				border-right: 1px solid yellow
-				border-bottom: 1px solid yellow
+				border-right: 1px solid black
+				border-bottom: 1px solid black
 		.bonus__blocks
 			gap: 29px
 			.bonus__item-left
@@ -383,3 +623,187 @@ h2
 					font-weight: bold
 					font-size: 18px
 					line-height: 188.6%
+.offer 
+	background: url(../img/offer-bg.png)
+	background-repeat: no-repeat
+	min-height: 841px
+	padding-top: 80px
+	.offer__container
+		max-width: fit-content
+		margin: 0 auto
+		.offer__heading
+			gap: 183px
+			h2
+				margin-bottom: 114px
+				max-width: 410px
+				width: 100%
+				position: relative
+				color: white
+				&::after
+					right: -10px
+					bottom: -15px
+					position: absolute
+					content: ''
+					height: 46px
+					width: 70px
+					background: inherit
+					border-right: 1px solid white
+					border-bottom: 1px solid white
+			.offer__heading-text
+				h3
+					font-weight: bold
+					font-size: 37px
+					line-height: 78.6%
+					color: $yellow
+					margin-bottom: 17px
+				p
+					color: white
+					font-size: 22px
+					line-height: 78.6%
+		h4
+			color: white
+			font-weight: bold
+			font-size: 35px
+			line-height: 78.6%
+			text-transform: uppercase
+			margin-bottom: 35px
+		.line
+			max-width: 80px
+			background: white
+			height: 1px
+			width: 100%
+			margin-bottom: 35px
+		.offer__text
+			align-items: center
+			gap: 55px
+			font-size: 22px
+			line-height: 28px
+			color: white
+			.offer__text-left
+				max-width: 528px
+				width: 100%
+				ul
+					margin-left: 25px
+					margin-top: 30px
+					margin-bottom: 30px
+					display: flex
+					gap: 30px
+					flex-direction: column
+					li
+						list-style: disc
+				.offer__text-left-dop
+					font-weight: bold
+			.offer__text-right
+				max-width: 530px
+				width: 100%
+				ul
+					display: flex
+					gap: 30px
+					flex-direction: column
+					margin-left: 25px
+					li
+						list-style: disc
+.form
+	display: flex
+	gap: 124px
+	background: $yellow
+	padding-left: 385px
+	form
+		margin-top: 75px
+		display: flex
+		flex-direction: column
+		gap: 20px
+		max-width: 320px
+		width: 100%
+		margin-bottom: 75px
+		button
+			max-width: 321px
+			height: 51px
+			background: #020203
+			color: $yellow
+			font-weight: bold
+			font-size: 18px
+			line-height: 23px
+			display: flex
+			align-items: center
+			justify-content: center
+		textarea
+			padding-left: 18px
+			font-weight: bold
+			color: #020203
+			font-size: 18px
+			line-height: 23px
+			padding-top: 12px
+			padding-bottom: 12px
+			max-height: 120px
+			&::placeholder
+				font-family: 'Space Grotesk', sans-serif
+				color: #020203
+				font-size: 18px
+				line-height: 23px
+				font-weight: bold
+		input
+			padding-left: 18px
+			font-weight: bold
+			color: #020203
+			font-size: 18px
+			line-height: 23px
+			height: 51px
+			&::placeholder
+				font-family: 'Space Grotesk', sans-serif
+				color: #020203
+				font-size: 18px
+				line-height: 23px
+				font-weight: bold
+.career
+	padding-bottom: 70px
+	padding-top: 60px
+	position: relative
+	&__absolute
+		position: absolute
+		bottom: 47px
+		left: 0
+		text-transform: uppercase
+		color: #EFEFEF
+		font-weight: 800
+		font-size: 160px
+		line-height: 79.6%
+		font-family: 'Montserrat', sans-serif
+		z-index: -1
+	&__container
+		margin: 0 auto
+		max-width: fit-content
+		gap: 80px
+		.career__text
+			h2
+				margin-bottom: 40px
+				max-width: 460px
+				width: 100%
+				position: relative
+				color: black
+				&::after
+					right: -10px
+					bottom: -15px
+					position: absolute
+					content: ''
+					height: 46px
+					width: 70px
+					background: inherit
+					border-right: 1px solid $yellow
+					border-bottom: 1px solid $yellow
+			p
+				max-width: 489px
+			a
+				max-width: 255px
+				background: $yellow
+				margin-top: 20px
+				color: black
+				svg
+					margin-right: 12px
+		.career__images
+			display: flex
+			gap: 28px
+			.career__images-left
+				max-height: 508px
+			.career__images-right
+				margin-top: 60px

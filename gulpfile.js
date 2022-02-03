@@ -19,8 +19,8 @@ var path = {
 		css: './app/css/',
 		gulpfile: './gulpfile.js',
 		js: './app/js/',
-		jsLibs: ['./app/libs/smartmenus/jquery.smartmenus.min.js', './app/libs/slick-carousel/slick/slick.min.js'],
-		cssLibs: ['./app/libs/smartmenus/css/sm-core-css.css', './app/libs/smartmenus/css/sm-clean/sm-clean.css', './app/libs/slick-carousel/slick/slick.css'],
+		jsLibs: ['./app/libs/Magnific-Popup-master/dist/jquery.magnific-popup.js'],
+		cssLibs: ['./app/libs/Magnific-Popup-master/dist/magnific-popup.css'],
 		deleteLibs: ['./app/js/libs.js', './app/css/libs.css']
 	}
 }
