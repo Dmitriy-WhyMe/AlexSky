@@ -56,6 +56,7 @@ h2
 	width: 50px
 	padding-top: 45px
 	height: 170px
+	z-index: 2
 	.page-up__text
 		transform: rotate(90deg)
 		font-weight: bold
@@ -346,6 +347,23 @@ h2
 		display: flex
 		align-items: center
 		justify-content: center
+		border-radius: 100%
+		max-width: 486px
+		min-width: 486px
+		width: 100%
+		height: 486px
+		overflow: hidden
+		background: url(../img/video.png)
+		iframe
+			transform: scale(2.1)
+			border-radius: 100%
+			position: absolute
+			top: 40px
+			left: 0
+			width: 100%
+			height: 100%
+			border-width: 0
+			outline-width: 0
 		a
 			position: absolute
 
