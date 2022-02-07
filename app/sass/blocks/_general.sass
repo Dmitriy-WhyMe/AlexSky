@@ -832,3 +832,493 @@ h2
 				max-height: 508px
 			.career__images-right
 				margin-top: 60px
+
+
+
+.about-page
+	background: url(../img/about_main.png)
+	background-repeat: no-repeat
+	&__container
+		max-width: 1295px
+		width: 100%
+		margin: 0 auto
+		.about-page__text
+			.about-page__heading
+				margin-bottom: 50px	
+				position: relative
+				h1
+					font-weight: bold
+					font-size: 130px
+					line-height: 79.6%
+					color: white
+					text-transform: uppercase
+					span
+						color: $yellow
+				.sub-h1
+					position: absolute
+					font-size: 130px
+					line-height: 79.6%
+					top: 0
+					left: 21px
+					font-weight: bold
+					color: rgba(255, 255, 255, 0.1)
+					color: transparent
+					-webkit-text-stroke: 1px rgba(255, 255, 255, 0.1)
+					text-transform: uppercase
+			p
+				font-size: 20px
+				line-height: 26px
+				max-width: 498px
+				width: 100%
+				color: white
+				margin-bottom: 60px
+.about-why
+	background: url(../img/why_about.png)
+	background-repeat: no-repeat
+	padding-bottom: 94px
+	padding-top: 93px
+	.about-why__container 
+		max-width: fit-content
+		margin: 0 auto
+		width: 100%
+		h2
+			text-align: center
+			margin: 0 auto
+			margin-bottom: 40px
+			max-width: 386px
+			width: 100%
+			position: relative
+			color: white
+			&::after
+				right: -10px
+				bottom: -15px
+				position: absolute
+				content: ''
+				height: 46px
+				width: 70px
+				background: inherit
+				border-right: 1px solid $yellow
+				border-bottom: 1px solid $yellow
+		.about-why__text-top
+			max-width: 1099px
+			width: 100%
+			text-align: center
+			margin-bottom: 29px
+			color: white
+		.about-why__text-bottom
+			max-width: 1099px
+			width: 100%
+			text-align: center
+			color: white
+			margin-top: 45px
+		.about-why__blocks
+			gap: 81px
+			.about-why__block
+				max-width: 489px
+				width: 100%
+				h3
+					font-weight: bold
+					color: white
+					font-size: 20px
+					line-height: 78.6%
+					margin-bottom: 15px
+				.about-why__text
+					margin-bottom: 15px
+					color: white
+					h4
+						color: white
+						font-weight: bold
+				ul
+					margin-left: 15px
+					color: white
+					li
+						font-weight: 300
+						font-size: 14px
+						line-height: 18px
+						list-style: disc
+.about-history
+	padding-top: 150px
+	padding-bottom: 128px
+	.about-history__container 
+		max-width: 1009px
+		width: 100%
+		margin: 0 auto
+		.history__blocks 
+			position: relative
+			.history__blocks-absolute
+				width: 3px
+				height: 100%
+				position: absolute
+				z-index: -1
+				margin: 0 auto
+				background: $yellow
+				left: 0
+				right: 0
+				top: 25px
+				height: 78.5%
+			.history__block-one
+				max-width: 50%
+				.flex
+					gap: 35px
+					align-items: center
+					margin-bottom: 22px
+					.history__block-title
+						font-size: 70px
+						line-height: 78.6%
+						color: $yellow
+						font-weight: bold
+					.line
+						background: $yellow
+						max-width: 361px
+						width: 100%
+						height: 3px
+						position: relative
+						&::after
+							content: ''
+							width: 9px
+							height: 9px
+							position: absolute
+							background: black
+							top: -3.5px
+							border-radius: 100%
+							left: 0
+						&::before
+							content: ''
+							width: 9px
+							height: 9px
+							position: absolute
+							background: black
+							top: -3.5px
+							border-radius: 100%
+							right: -4.5px
+				.history__block-text
+					display: flex
+					flex-direction: column
+					gap: 15px
+					max-width: 475px
+					width: 100%
+			.history__block-two
+				margin-left: 50%
+				margin-top: -67px
+				max-width: 50%
+				.flex
+					flex-direction: row-reverse
+					gap: 26px
+					align-items: center
+					margin-bottom: 22px
+					.history__block-title
+						font-weight: bold
+						font-size: 70px
+						line-height: 78.6%
+						color: $yellow
+						color: transparent
+						-webkit-text-stroke: 1px $yellow
+						
+					.line
+						background: $yellow
+						max-width: 361px
+						width: 100%
+						height: 3px
+						position: relative
+						&::after
+							content: ''
+							width: 9px
+							height: 9px
+							position: absolute
+							background: black
+							top: -3.5px
+							border-radius: 100%
+							left: -4.5px
+						&::before
+							content: ''
+							width: 9px
+							height: 9px
+							position: absolute
+							background: black
+							top: -3.5px
+							border-radius: 100%
+							right: 0
+				.history__block-text
+					margin: 0 32px
+					opacity: 0.5
+					display: flex
+					flex-direction: column
+					gap: 15px
+					max-width: 475px
+					width: 100%
+			.history__block-three
+				max-width: 50%
+				.flex
+					gap: 35px
+					align-items: center
+					margin-bottom: 22px
+					.history__block-title
+						font-weight: bold
+						font-size: 70px
+						line-height: 78.6%
+						color: $yellow
+						color: transparent
+						-webkit-text-stroke: 1px $yellow
+					.line
+						background: $yellow
+						max-width: 361px
+						width: 100%
+						height: 3px
+						position: relative
+						&::after
+							content: ''
+							width: 9px
+							height: 9px
+							position: absolute
+							background: black
+							top: -3.5px
+							border-radius: 100%
+							left: 0
+						&::before
+							content: ''
+							width: 9px
+							height: 9px
+							position: absolute
+							background: black
+							top: -3.5px
+							border-radius: 100%
+							right: -4.5px
+				.history__block-text
+					opacity: 0.5
+					display: flex
+					flex-direction: column
+					gap: 15px
+					max-width: 475px
+					width: 100%
+			.history__block-four
+				margin-top: -107px
+				margin-left: 50%
+				max-width: 50%
+				.flex
+					flex-direction: row-reverse
+					gap: 26px
+					align-items: center
+					margin-bottom: 22px
+					.history__block-title
+						font-weight: bold
+						font-size: 70px
+						line-height: 78.6%
+						color: $yellow
+						color: transparent
+						-webkit-text-stroke: 1px $yellow
+						
+					.line
+						background: $yellow
+						max-width: 361px
+						width: 100%
+						height: 3px
+						position: relative
+						&::after
+							content: ''
+							width: 9px
+							height: 9px
+							position: absolute
+							background: black
+							top: -3.5px
+							border-radius: 100%
+							left: -4.5px
+						&::before
+							content: ''
+							width: 9px
+							height: 9px
+							position: absolute
+							background: black
+							top: -3.5px
+							border-radius: 100%
+							right: 0
+				.history__block-text
+					opacity: 0.5
+					display: flex
+					flex-direction: column
+					gap: 15px
+					max-width: 475px
+					width: 100%
+					margin-left: 32px
+			.history__block-five
+				max-width: 50%
+				.flex
+					gap: 35px
+					align-items: center
+					margin-bottom: 22px
+					.history__block-title
+						font-weight: bold
+						font-size: 70px
+						line-height: 78.6%
+						color: $yellow
+						color: transparent
+						-webkit-text-stroke: 1px $yellow
+						
+					.line
+						background: $yellow
+						max-width: 361px
+						width: 100%
+						height: 3px
+						position: relative
+						&::after
+							content: ''
+							width: 9px
+							height: 9px
+							position: absolute
+							background: black
+							top: -4.5px
+							border-radius: 100%
+							left: 0
+						&::before
+							content: ''
+							width: 9px
+							height: 9px
+							position: absolute
+							background: black
+							top: -3.5px
+							border-radius: 100%
+							right: -4px
+				.history__block-text
+					opacity: 0.5
+					display: flex
+					flex-direction: column
+					gap: 15px
+					max-width: 475px
+					width: 100%
+			.history__block-six
+				margin-left: 50%
+				margin-top: -138px
+				max-width: 50%
+				.flex
+					gap: 26px
+					align-items: center
+					flex-direction: row-reverse
+					margin-bottom: 22px
+					.history__block-title
+						font-weight: bold
+						font-size: 70px
+						line-height: 78.6%
+						color: $yellow
+						color: transparent
+						-webkit-text-stroke: 1px $yellow
+					.line
+						background: $yellow
+						max-width: 361px
+						width: 100%
+						height: 3px
+						position: relative
+						&::after
+							content: ''
+							width: 9px
+							height: 9px
+							position: absolute
+							background: black
+							top: -3.5px
+							border-radius: 100%
+							left: -4.5px
+						&::before
+							content: ''
+							width: 9px
+							height: 9px
+							position: absolute
+							background: black
+							top: -3.5px
+							border-radius: 100%
+							right: 0
+				.history__block-text
+					opacity: 0.5
+					display: flex
+					flex-direction: column
+					gap: 15px
+					max-width: 475px
+					width: 100%
+					margin-left: 32px
+		h2
+			margin-bottom: 60px
+			max-width: 312px
+			width: 100%
+			position: relative
+			&::after
+				right: -5px
+				bottom: -15px
+				position: absolute
+				content: ''
+				height: 46px
+				width: 70px
+				background: inherit
+				border-right: 1px solid $yellow
+				border-bottom: 1px solid $yellow
+.about-page-form 
+	background: url(../img/about_form.png)
+	background-repeat: no-repeat
+	position: relative
+	background-size: cover
+	.about-page-form-bg
+		position: absolute
+		width: 100%
+		height: 100%
+		background: rgba(0, 0, 0, 0.6)
+		z-index: 0
+	.about-page-form__container 
+		z-index: 2
+		padding-top: 70px
+		padding-bottom: 68px
+		max-width: 1017px
+		width: 100%
+		margin: 0 auto
+		position: relative
+		.flex
+			gap: 26px
+			align-items: center
+			margin-bottom: 31px
+			h2
+				font-weight: bold
+				font-size: 50px
+				line-height: 78.6%
+				text-transform: uppercase
+				color: white
+				max-width: 261px
+				position: relative
+				&::after
+					right: -5px
+					bottom: -15px
+					position: absolute
+					content: ''
+					height: 46px
+					width: 70px
+					background: inherit
+					border-right: 1px solid $yellow
+					border-bottom: 1px solid $yellow
+			p
+				max-width: 278px
+				width: 100%
+				color: white
+		form
+			display: flex
+			gap: 27px
+			flex-wrap: wrap
+			input
+				max-width: 321px
+				height: 50px
+				width: 100%
+				padding: 0 18px
+				color: black
+				font-weight: bold
+				font-size: 18px
+				line-height: 23px
+				&::placeholder
+					color: black
+					font-weight: bold
+					font-size: 18px
+					line-height: 23px
+			button
+				display: flex
+				align-items: center
+				justify-content: center
+				cursor: pointer
+				max-width: 321px
+				height: 50px
+				width: 100%
+				background: $yellow
+				font-weight: bold
+				font-size: 18px
+				line-height: 23px

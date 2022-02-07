@@ -25,7 +25,37 @@
         font-size: 90px
     .form
         padding-left: 90px
+    .about-page__container
+        padding: 0 15px
+    
 @media(max-width: 1024px)
+    .about-page__main .about-page__text .about-page__heading .sub-h1
+        line-height: 94px
+        font-size: 90px
+    .about-page__main .about-page__text .about-page__heading h1
+        line-height: 94px
+        font-size: 90px
+    .about-page__main
+        margin-top: 90px
+    .about-why .about-why__container
+        padding: 0 15px
+    .about-why .about-why__container h2
+        max-width: 310px
+    .about-history
+        padding: 70px 0
+    .about-history .about-history__container
+        margin: 0
+        padding: 0 15px
+    .about-history .about-history__container h2
+        max-width: 250px
+    .about-page-form .about-page-form__container
+        padding: 70px 15px
+    .about-page-form .about-page-form__container form input
+        max-width: 310px
+    .about-page-form .about-page-form__container form button
+        max-width: 310px
+    .about-page-form .about-page-form__container .flex h2::after
+        right: 50px
     header .navbar
         margin-left: 0px
     .grow__main
@@ -70,6 +100,21 @@
     .thanks-pop__wrapper h2,.call-pop .call-pop__wrapper h2,.rewies__container h2,.bonus__container h2,.offer .offer__container .offer__heading h2,.why__container h2,.choose__container h2,.about__container .about__text h2
         max-width: fit-content
 @media(max-width: 1023px)
+    .about-history .about-history__container .history__blocks .history__blocks-absolute
+        height: 77.5%
+    .about-history
+        padding: 50px 0
+    .about-why
+        padding: 20px 0
+    .about-history .about-history__container .history__blocks .history__block-one .history__block-text,
+    .about-history .about-history__container .history__blocks .history__block-two .history__block-text,
+    .about-history .about-history__container .history__blocks .history__block-three .history__block-text,
+    .about-history .about-history__container .history__blocks .history__block-four .history__block-text,
+    .about-history .about-history__container .history__blocks .history__block-five .history__block-text,
+    .about-history .about-history__container .history__blocks .history__block-six .history__block-text
+        max-width: 345px
+    .about-page-form .about-page-form__container form
+        justify-content: center
     .grow__main
         flex-direction: column
         margin-top: 10px
@@ -126,6 +171,69 @@
     footer .footer__container .footer__column-logo, footer .footer__container .footer__column-social, footer .footer__container .footer__column-nav
         margin-right: 50px
 @media(max-width: 767px)
+    .about-page-form .about-page-form__container .flex h2
+        font-size: 36px
+        line-height: 36px
+        max-width: 100%
+    .about-page-form .about-page-form__container .flex p
+        text-align: center
+    .about-history .about-history__container h2::after, 
+    .about-why .about-why__container h2::after,
+    .about-page-form .about-page-form__container .flex h2::after
+        height: 31px
+        width: 31px
+        bottom: -5px
+        right: -5px
+    .about-page-form .about-page-form__container .flex h2
+        text-align: center
+    .about-history .about-history__container h2
+        max-width: 225px
+    .about-page__main
+        margin-top: 40px
+    .about-page__main .about-page__text .about-page__heading .sub-h1,.about-page__main .about-page__text .about-page__heading h1
+        font-size: 47px
+        line-height: 50px
+    .about-page__container .about-page__text .about-page__heading .sub-h1
+        left: 10px
+    .about-page__container .about-page__text p, .about-page__container .about-page__text .about-page__heading
+        margin-bottom: 40px
+    .about-why
+        background-size: cover
+    .about-why .about-why__container .about-why__blocks
+        gap: 20px
+        flex-direction: column
+    .about-why .about-why__container h2
+        max-width: 280px
+    .about-page-form .about-page-form__container .flex
+        gap: 20px
+        flex-direction: column
+    .about-history
+        padding: 20px 0
+    .about-history .about-history__container h2
+        margin-bottom: 20px
+    .about-history .about-history__container .history__blocks .history__blocks-absolute
+        display: none
+    .about-history .about-history__container .history__blocks .history__block-one,
+    .about-history .about-history__container .history__blocks .history__block-two,
+    .about-history .about-history__container .history__blocks .history__block-three,
+    .about-history .about-history__container .history__blocks .history__block-four,
+    .about-history .about-history__container .history__blocks .history__block-five,
+    .about-history .about-history__container .history__blocks .history__block-six
+        max-width: 100%
+    .about-history .about-history__container .history__blocks .history__block-two,
+    .about-history .about-history__container .history__blocks .history__block-four,
+    .about-history .about-history__container .history__blocks .history__block-six
+        margin: 0
+    .about-history .about-history__container .history__blocks
+        display: flex
+        flex-direction: column
+        gap: 20px
+    .about-history .about-history__container .history__blocks .history__block-one .history__block-text, .about-history .about-history__container .history__blocks .history__block-two .history__block-text, .about-history .about-history__container .history__blocks .history__block-three .history__block-text, .about-history .about-history__container .history__blocks .history__block-four .history__block-text, .about-history .about-history__container .history__blocks .history__block-five .history__block-text, .about-history .about-history__container .history__blocks .history__block-six .history__block-text
+        max-width: 100%
+    .about-history .about-history__container .history__blocks .history__block-two .history__block-text,
+    .about-history .about-history__container .history__blocks .history__block-four .history__block-text,
+    .about-history .about-history__container .history__blocks .history__block-six .history__block-text
+        margin: 0
     .grow__main .grow__images
         min-width: 320px
         height: 320px
@@ -231,6 +339,14 @@
         padding: 0
     
 @media(max-width: 413px)
+    .about-page-form .about-page-form__container .flex h2
+        font-size: 30px
+        line-height: 30px
+        max-width: 100%
+    .about-why .about-why__container h2
+        max-width: 232px
+    .about-history .about-history__container h2
+        max-width: 190px
     .main-menu-btn-icon, .main-menu-btn-icon:before, .main-menu-btn-icon:after
         right: 190px
     .grow__main .grow__text .grow__heading h1
@@ -324,3 +440,5 @@
         max-width: 130px
     .career__container .career__images .career__images-left
         max-width: 130px
+    #mapone, #maptwo
+        max-width: 290px

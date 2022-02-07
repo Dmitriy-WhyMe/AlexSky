@@ -85,7 +85,7 @@
 					}
 				});
 				$(this).find('input').val('');
-				$('#form').trigger('reset');
+				$('#form-main').trigger('reset');
 			});
 			return false;
 		});
@@ -105,7 +105,7 @@
 					}
 				});
 				$(this).find('input').val('');
-				$('#form').trigger('reset');
+				$('#form-call').trigger('reset');
 			});
 			return false;
 		});
@@ -125,7 +125,27 @@
 					}
 				});
 				$(this).find('input').val('');
-				$('#form').trigger('reset');
+				$('#form-apply').trigger('reset');
+			});
+			return false;
+		});
+		$('#form-about-page').submit(function() { // проверка на пустоту заполненных полей. Атрибут html5 — required не подходит (не поддерживается Safari)
+			if (document.form.name.value == '' || document.form.phone.value == '' ) {
+				valid = false;
+				return valid;
+			}
+			$.ajax({
+				type: "POST",
+				url: "mail-about-page.php",
+				data: $(this).serialize()
+			}).done(function() {
+				$.magnificPopup.open({
+					items: {
+						src: '#modathanks-popup'
+					}
+				});
+				$(this).find('input').val('');
+				$('#form-about-page').trigger('reset');
 			});
 			return false;
 		});
